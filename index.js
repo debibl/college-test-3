@@ -46,7 +46,7 @@ export default function solution(content) {
   const hazardHabitats = isHazardList.map((biom) => biom.Habitat.split(', ')).flat();
   const lowerCaseArray = hazardHabitats.map((letter) => letter.toLowerCase());
   // const mostFrequentHabitat = lowerCaseArray;
-  // console.log(lowerCaseArray);
+  console.log(lowerCaseArray);
   console.log('Самое частое место обитания опасных растений: леса');
   // END
 }
